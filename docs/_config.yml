@@ -1,12 +1,117 @@
-# Info di base per il sito
-title: "Saw 2 Inspired Escape Room"
-description: "Escape room basata su Saw 2"
-author: "R0mb0"
+# Name of website
+title: SAW's escape room
 
-# Impostazioni del tema
-permalink: /:title/
-baseurl: "/Saw_2-Inspired_Escape_Room"
-url: "https://r0mb0.github.io"
+# Your name to show in the footer
+author: Francesco Rombaldoni
+
+###############################################
+# --- List of links in the navigation bar --- #
+###############################################
+
+navbar-links:
+  About the project: "aboutus"
+  Risorse:
+    - GitHub: "https://github.com/R0mb0/My_personal_announcements"
+  #Author's home: "Author's url site"
+
+################
+# --- Logo --- #
+################
+
+avatar: "/assets/img/Logo.png"
+round-avatar: true
+
+#####################################
+# --- Footer social media links --- #
+#####################################
+
+social-network-links:
+  email: "f.rombaldoni@campus.uniurb.it"
+  github: Pomodoro-Musei-di-Pesaro 
+
+rss-description: SAW's escape room
+
+###########################
+# --- General options --- #
+###########################
+
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+  vk: true
+
+url-pretty: "https://github.com/R0mb0/My_personal_announcements"
+
+excerpt_length: 50
+feed_show_excerpt: true
+feed_show_tags: true
+post_search: true
+edit_page_button: false
+navbar-var-length: false
+
+######################################
+# --- Colours / background image --- #
+######################################
+
+navbar-col: "#BF364F"
+navbar-text-col: "#401B22"
+navbar-border-col: "#BF364F"
+page-col: "#1A1B20"
+text-col: "#401B22"
+link-col: "#008AFF"
+hover-col: "#BF5E66"
+footer-col: "#BF364F"
+footer-text-col: "#401B22"
+footer-link-col: "#401B22"
+footer-hover-col: "#BF5E66"
+
+#################################
+# --- Web Analytics Section --- #
+#################################
+
+####################
+# --- Comments --- #
+####################
+
+################
+# --- Misc --- #
+################
+
+date_format: "%B %-d, %Y"
+
+# Facebook App ID
+#fb_app_id: ""
+
+#################################################################################
+# --- You don't need to touch anything below here (but you can if you want) --- #
+#################################################################################
+
+# Output options (more information on Jekyll's site)
+timezone: "America/Toronto"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      social-share: true
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
 
 # Collezione personalizzata per i punteggi
 collections:
@@ -14,28 +119,14 @@ collections:
     output: true
     permalink: /punteggi/:name/
 
-# Directory per i post standard
-collections_dir: docs
-
-# Impostazioni Jekyll standard
-markdown: kramdown
-highlighter: rouge
-
-# Impostazioni per la build su GitHub Pages
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Escludi file dal build (se necessario)
+# Escludi questi file dalla build
 exclude:
+  - CHANGELOG.md
+  - CNAME
+  - LICENSE
   - README.md
-  - Gemfile
-  - Gemfile.lock
+  - docs/
 
-# Impostazioni Beautiful Jekyll (modifica come desideri)
-social-network-links:
-  github: R0mb0
-  email: f.rombaldoni@campus.uniurb.it
-
-# Opzioni aggiuntive
-timezone: Europe/Rome
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
