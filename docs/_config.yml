@@ -1,176 +1,42 @@
-# Name of website
-title: SAW's escape room
+# Info di base per il sito
+title: "Saw 2 Inspired Escape Room"
+description: "Escape room basata su Saw 2"
+author: "R0mb0"
 
-# Your name to show in the footer
-author: Francesco Rombaldoni
+# Impostazioni del tema
+theme: "beautiful-jekyll-theme"
+permalink: /:title/
+baseurl: "/Saw_2-Inspired_Escape_Room"
+url: "https://r0mb0.github.io"
 
-###############################################
-# --- List of links in the navigation bar --- #
-###############################################
+# Collezione personalizzata per i punteggi
+collections:
+  punteggi:
+    output: true
+    permalink: /punteggi/:name/
 
-navbar-links:
-  About the project: "aboutus"
-  Risorse:
-    - GitHub: "https://github.com/R0mb0/My_personal_announcements"
-  #Author's home: "Author's url site"
+# Directory per i post standard
+collections_dir: docs
 
-################
-# --- Logo --- #
-################
-
-avatar: "/assets/img/Logo.png"
-
-round-avatar: true
-
-#####################################
-# --- Footer social media links --- #
-#####################################
-
-# Select the social network links that you want to show in the footer.
-# You can change the order that they show up on the page by changing the order here.
-# Uncomment the links you want to show and add your information to each one.
-social-network-links:
-  email: "f.rombaldoni@campus.uniurb.it"
-#  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-#  facebook: yourname
-  github: Pomodoro-Musei-di-Pesaro 
-#  twitter: yourname
-#  patreon: yourname
-#  youtube: yourname
-#  medium: yourname
-#  reddit: yourname
-#  linkedin: yourNick
-#  xing: yourname
-#  stackoverflow: "cod/yourname"
-#  snapchat: yourname
-#  instagram: yourname
-#  spotify: yourname
-#  telephone: number
-#  steam: yourname
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code" 
-#  kaggle: yourname
-#  hackerrank: yourname
-#  gitlab: yourname
-
-# If you want your website to generate an RSS feed, provide a description
-# The URL for the feed will be https://<your_website>/feed.xml
-rss-description: SAW's escape room
-
-###########################
-# --- General options --- #
-###########################
-
-# Select which social network share links to show in posts
-share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
-  vk: true
-
-# How to display the link to your website in the footer
-# Remove this if you don't want a link in the footer
-url-pretty: "https://github.com/R0mb0/My_personal_announcements"
-
-# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
-
-# Whether or not to show an excerpt for every blog post in the feed page
-feed_show_excerpt: true
-
-# Whether or not to show a list of tags below each post preview in the feed page
-feed_show_tags: true
-
-# Add a search button to the navbar
-post_search: true
-
-# Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: false
-
-navbar-var-length: false
-
-######################################
-# --- Colours / background image --- #
-######################################
-
-# Personalize the colours in your website. Colour values can be any valid CSS colour
-
-#navbar-col: "#BF364F"
-navbar-col: "#BF364F"
-navbar-text-col: "#401B22"
-navbar-border-col: "#BF364F"
-page-col: "#1A1B20"
-text-col: "#401B22"
-link-col: "#008AFF"
-hover-col: "#BF5E66"
-#footer-col: "#BF364F"
-footer-col: "#BF364F"
-footer-text-col: "#401B22"
-footer-link-col: "#401B22"
-footer-hover-col: "#BF5E66"
-
-#################################
-# --- Web Analytics Section --- #
-#################################
-
-####################
-# --- Comments --- #
-####################
-
-################
-# --- Misc --- #
-################
-
-# Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
-
-# Facebook App ID
-#fb_app_id: ""
-
-#################################################################################
-# --- You don't need to touch anything below here (but you can if you want) --- #
-#################################################################################
-
-# Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+# Impostazioni Jekyll standard
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
 
-kramdown:
-  input: GFM
-
-# Default YAML values (more information on Jekyll's site)
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # any file that's not a post will be a "page" layout by default
-    values:
-      layout: "page"
-
-# Exclude these files from production site
-exclude:
-  - CHANGELOG.md
-  - CNAME
-  - LICENSE
-  - README.md
-  - docs/
-
+# Impostazioni per la build su GitHub Pages
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Escludi file dal build (se necessario)
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Impostazioni Beautiful Jekyll (modifica come desideri)
+social-network-links:
+  github: R0mb0
+  email: f.rombaldoni@campus.uniurb.it
+
+# Opzioni aggiuntive
+timezone: Europe/Rome
