@@ -55,15 +55,15 @@ navbar-var-length: false
 ######################################
 
 navbar-col: "#590202"
-navbar-text-col: "#401B22"
+navbar-text-col: "#BF364F"
 navbar-border-col: "#590202"
 page-col: "#1A1B20"
-text-col: "#401B22"
+text-col: "#BF364F"
 link-col: "#008AFF"
 hover-col: "#BF5E66"
 footer-col: "#590202"
-footer-text-col: "#401B22"
-footer-link-col: "#401B22"
+footer-text-col: "#BF364F"
+footer-link-col: "#BF364F"
 footer-hover-col: "#BF5E66"
 
 #################################
