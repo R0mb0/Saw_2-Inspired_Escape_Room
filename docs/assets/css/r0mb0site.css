@@ -123,7 +123,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col | default: "#BF364F" }};
+  background-color: {{ site.navbar-col | default: "#590202" }};
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
@@ -260,7 +260,7 @@ img {
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   padding: 0.625rem;
-  background-color: {{ site.navbar-col | default: "#BF364F" }};
+  background-color: {{ site.navbar-col | default: "#590202" }};
   text-decoration: none !important;
   font-weight: normal;
   color: {{ site.navbar-text-col | default: "#404040" }};
@@ -379,10 +379,10 @@ img {
 
 footer {
   padding: 1.875rem 0;
-  border-top: 1px #BF364F solid;
+  border-top: 1px #590202 solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: {{ site.footer-col | default: "#BF364F" }};
+  background-color: {{ site.footer-col | default: "#590202" }};
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
