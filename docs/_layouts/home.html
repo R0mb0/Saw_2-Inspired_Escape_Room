@@ -95,7 +95,7 @@ layout: page
               {% endif %}
             </div>
             {% endunless %}-->
-          {% endunless %}
+          {% endfor %}
 
           <!--{% if site.feed_show_tags != false and post.tags.size > 0 %}
           <div class="blog-tags">
@@ -113,7 +113,7 @@ layout: page
 
         </article>
       </li>
-    {%- endunless -%}
+    {% endfor %}
   {%- endfor -%}
 </ul>
 
