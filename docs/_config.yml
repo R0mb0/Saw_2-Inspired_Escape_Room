@@ -1,5 +1,5 @@
 # Name of website
-title: R0mb0 Point
+title: SAW's escape room
 
 # Your name to show in the footer
 author: Francesco Rombaldoni
@@ -61,7 +61,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: R0mb0 Point
+rss-description: SAW's escape room
 
 ###########################
 # --- General options --- #
