@@ -4,7 +4,7 @@ description: "Escape room basata su Saw 2"
 author: "R0mb0"
 
 # Impostazioni del tema
-theme: "beautiful-jekyll-theme"
+theme: "beautiful-jekyll"
 permalink: /:title/
 baseurl: "/Saw_2-Inspired_Escape_Room"
 url: "https://r0mb0.github.io"
