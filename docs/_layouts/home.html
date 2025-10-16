@@ -1,94 +1,80 @@
 {% assign posts = paginator.posts | default: site.posts %}
 
-{%- comment -%}
-  Estrae il punteggio dalla prima parte del titolo di ogni post,
-  crea una lista di oggetti "score|||index",
-  ordina per score decrescente,
-  e poi mostra i post ordinati.
-{%- endcomment -%}
-
+{% comment %}
+  Costruisci una lista di "score|||index" per ogni post
+{% endcomment %}
 {% assign scored_posts = "" %}
 {% for post in posts %}
-  {% assign score = post.title | split: " " | first | plus: 0 %}
+  {% assign score_str = post.title | split: " " | first %}
+  {% if score_str %}
+    {% assign score = score_str | plus: 0 %}
+  {% else %}
+    {% assign score = 0 %}
+  {% endif %}
   {% capture scored_posts %}{{ scored_posts }}{{ score }}|||{{ forloop.index0 }}~~~{% endcapture %}
 {% endfor %}
+
 {% assign scored_posts_array = scored_posts | split: "~~~" %}
 {% assign scored_posts_sorted = scored_posts_array | sort | reverse %}
 
 <ul class="posts-list list-unstyled" role="list">
   {% for item in scored_posts_sorted %}
-    {% assign fields = item | split: "|||" %}
-    {% assign post_index = fields[1] | plus: 0 %}
-    {% assign post = posts[post_index] %}
+    {% unless item == "" %}
+      {% assign fields = item | split: "|||" %}
+      {% assign post_index = fields[1] | plus: 0 %}
+      {% assign post = posts[post_index] %}
 
-    <li class="post-preview">
-      <article>
-
-        {%- capture thumbnail -%}
-          {% if post.thumbnail-img %}
-            {{ post.thumbnail-img }}
-          {% elsif post.cover-img %}
-            {% if post.cover-img.first %}
-              {{ post.cover-img[0].first.first }}
-            {% else %}
-              {{ post.cover-img }}
+      <li class="post-preview">
+        <article>
+          <!-- Immagine thumbnail -->
+          {% capture thumbnail %}
+            {% if post.thumbnail-img %}
+              {{ post.thumbnail-img }}
+            {% elsif post.cover-img %}
+              {% if post.cover-img.first %}
+                {{ post.cover-img[0].first.first }}
+              {% else %}
+                {{ post.cover-img }}
+              {% endif %}
             {% endif %}
-          {% else %}
+          {% endcapture %}
+          {% assign thumbnail=thumbnail | strip %}
+
+          {% if site.feed_show_excerpt == false and thumbnail != "" %}
+            <div class="post-image post-image-normal">
+              <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+                <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+              </a>
+            </div>
           {% endif %}
-        {% endcapture %}
-        {% assign thumbnail=thumbnail | strip %}
 
-        {% if site.feed_show_excerpt == false %}
-        {% if thumbnail != "" %}
-        <div class="post-image post-image-normal">
-          <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-            <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+          <a href="{{ post.url | absolute_url }}">
+            <h2 class="post-title">{{ post.title | strip_html }}</h2>
+            {% if post.subtitle %}
+              <h3 class="post-subtitle">{{ post.subtitle | strip_html }}</h3>
+            {% endif %}
           </a>
-        </div>
-        {% endif %}
-        {% endif %}
 
-        <a href="{{ post.url | absolute_url }}">
-          <h2 class="post-title">{{ post.title | strip_html }}</h2>
-
-          {% if post.subtitle %}
-            <h3 class="post-subtitle">
-            {{ post.subtitle | strip_html }}
-            </h3>
+          {% if thumbnail != "" %}
+            <div class="post-image post-image-small">
+              <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+                <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+              </a>
+            </div>
           {% endif %}
-        </a>
 
-        {% if thumbnail != "" %}
-        <div class="post-image post-image-small">
-          <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-            <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
-          </a>
-        </div>
-        {% endif %}
-
-        {% unless site.feed_show_excerpt == false %}
-        {% if thumbnail != "" %}
-        <div class="post-image post-image-short">
-          <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-            <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
-          </a>
-        </div>
-        {% endif %}
-
-        <!-- Uncomment to show excerpt
-        <div class="post-entry">
-          {% assign excerpt_length = site.excerpt_length | default: 50 %}
-          {{ post.excerpt | strip_html | truncatewords: excerpt_length }}
-          {% assign excerpt_word_count = post.excerpt | number_of_words %}
-          {% if post.content != post.excerpt or excerpt_word_count > excerpt_length %}
-            <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
-          {% endif %}
-        </div>
-        {% endunless %}
-        -->
-
-      </article>
-    </li>
+          {% unless site.feed_show_excerpt == false %}
+            {% if thumbnail != "" %}
+              <div class="post-image post-image-short">
+                <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+                  <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+                </a>
+              </div>
+            {% endif %}
+          {% endunless %}
+        </article>
+      </li>
+    {% endunless %}
   {% endfor %}
 </ul>
 
