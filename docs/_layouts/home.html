@@ -4,31 +4,31 @@ layout: page
 
 {{ content }}
 
-{%- assign posts = paginator.posts | default: site.posts -%}
+{% assign posts = paginator.posts | default: site.posts %}
 
 {%- comment -%}
   Costruisci una lista di "score|||index" per ogni post
 {%- endcomment -%}
-{%- assign scored_posts = "" -%}
-{%- for post in posts -%}
-  {%- assign score_str = post.title | split: " " | first -%}
-  {%- if score_str -%}
-    {%- assign score = score_str | plus: 0 -%}
-  {%- else -%}
-    {%- assign score = 0 -%}
-  {%- endif -%}
-  {%- capture scored_posts -%}{{ scored_posts }}{{ score }}|||{{ forloop.index0 }}~~~{%- endcapture -%}
-{%- endfor -%}
-{%- assign scored_posts_array = scored_posts | split: "~~~" -%}
-{%- assign scored_posts_sorted = scored_posts_array | sort | reverse -%}
+{% assign scored_posts = "" %}
+{% for post in posts %}
+  {% assign score_str = post.title | split: " " | first %}
+  {% if score_str %}
+    {% assign score = score_str | plus: 0 %}
+  {% else %}
+    {% assign score = 0 %}
+  {% endif %}
+  {% capture scored_posts %}{{ scored_posts }}{{ score }}|||{{ forloop.index0 }}~~~{% endcapture %}
+{% endfor %}
+{% assign scored_posts_array = scored_posts | split: "~~~" %}
+{% assign scored_posts_sorted = scored_posts_array | sort | reverse %}
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list">
-  {%- for item in scored_posts_sorted -%}
-    {%- unless item == "" -%}
-      {%- assign fields = item | split: "|||" -%}
-      {%- assign post_index = fields[1] | plus: 0 -%}
-      {%- assign post = posts[post_index] -%}
+  {% for item in scored_posts_sorted %}
+    {% unless item == "" %}
+      {% assign fields = item | split: "|||" %}
+      {% assign post_index = fields[1] | plus: 0 %}
+      {% assign post = posts[post_index] %}
       <li class="post-preview">
         <article>
 
@@ -95,7 +95,7 @@ layout: page
               {% endif %}
             </div>
             {% endunless %}-->
-          {% endfor %}
+          {% endunless %}
 
           <!--{% if site.feed_show_tags != false and post.tags.size > 0 %}
           <div class="blog-tags">
@@ -113,8 +113,8 @@ layout: page
 
         </article>
       </li>
-    {% endfor %}
-  {%- endfor -%}
+    {% endunless %}
+  {% endfor %}
 </ul>
 
 {% if paginator.total_pages > 1 %}
