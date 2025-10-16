@@ -24,9 +24,9 @@ layout: page
 
 <ul class="posts-list list-unstyled" role="list">
   {% for item in scored_posts_sorted %}
-    {% assign fields = item | split: "|||" %}
-    {% assign post_index = fields[1] | plus: 0 %}
     {% unless item == "" %}
+      {% assign fields = item | split: "|||" %}
+      {% assign post_index = fields[1] | plus: 0 %}
       {% assign post = posts[post_index] %}
       <li class="post-preview">
         <article>
