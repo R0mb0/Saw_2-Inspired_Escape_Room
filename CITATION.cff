@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you refer to this site, please cite it as below."
+authors:
+- family-names: "Francesco"
+  given-names: "Rombaldoni"
+title: "Saw_2-Inspired_Escape_Room"
+version: 1.0.0
+date-released: 2025-10-21
+url: "https://github.com/R0mb0/Saw_2-Inspired_Escape_Room"
