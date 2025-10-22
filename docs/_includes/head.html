@@ -78,6 +78,9 @@
     {% endfor %}
   {% endif %}
 
+  <!-- Includi il CSS della leaderboard sempre per ultimo (override mirato, sicuro) -->
+  <link rel="stylesheet" href="{{ '/assets/css/leaderboard.css' | relative_url }}">
+
   {% if site.fb_app_id %}
   <meta property="fb:app_id" content="{{ site.fb_app_id }}">
   {% endif %}
@@ -95,48 +98,25 @@
       {%- else -%}
         {{ page.cover-img }}
       {%- endif -%}
-    {%- elsif page.thumbnail-img -%}
-      {{ page.thumbnail-img }}
-    {%- elsif site.avatar -%}
+    {%- else -%}
       {{ site.avatar }}
+    {%- endif -%}
+  {% endcapture %}
+
+  {% assign img = img | strip %}
+  {% if img != "" %}
+    {% if img contains '://' %}
+      {% assign img_url = img %}
+    {% else %}
+      {% assign img_url = img | absolute_url %}
     {% endif %}
-  {%- endcapture -%}
-  {%- assign img=img | strip -%}
-
-  <meta property="og:title" content="{{ title }}">
-  <meta property="og:description" content="{{ description }}">
-
-  {% if img != "" %}
-  <meta property="og:image" content="{{ img | absolute_url }}">
+    <meta property="og:image" content="{{ img_url }}">
+    <meta name="twitter:image" content="{{ img_url }}">
   {% endif %}
 
-  {% if page.id %}
-  <meta property="og:type" content="article">
-  <meta property="og:article:author" content="{{ site.author }}">
-  <meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
-  {% else %}
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | absolute_url | strip_index }}">
   <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
-  {% endif %}
 
-  {% if img != "" and img != site.avatar %}
-  <meta name="twitter:card" content="summary_large_image">
-  {% else %}
-  <meta name="twitter:card" content="summary">
-  {% endif %}
-  <meta name="twitter:site" content="@{{ site.social-network-links.twitter }}">
-  <meta name="twitter:creator" content="@{{ site.social-network-links.twitter }}">
-
-  <meta property="twitter:title" content="{{ title }}">
-  <meta property="twitter:description" content="{{ description }}">
-
-  {% if img != "" %}
-  <meta name="twitter:image" content="{{ img | absolute_url }}">
-  {% endif %}
-
+  <!-- analytics includes that may add scripts/meta -->
   {% include matomo.html %}
 
   {% if page.comments and site.staticman.repository and site.staticman.branch %}
