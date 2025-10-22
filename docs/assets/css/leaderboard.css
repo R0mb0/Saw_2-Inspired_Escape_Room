@@ -1,0 +1,37 @@
+/* Minimal, safe leaderboard CSS.
+   No front matter, no Liquid, only a few specific rules that center
+   title and subtitle inside .posts-list.leaderboard.
+   This file should be loaded last so it can override small things. */
+
+.posts-list.leaderboard .post-preview article {
+  text-align: center;        /* center text only inside the article */
+  max-width: 40rem;          /* constrain width so entries appear as a column */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center only title and subtitle (score + subtitle) */
+.posts-list.leaderboard .post-title,
+.posts-list.leaderboard .post-subtitle {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  display: block;
+}
+
+/* Modest emphasis for score */
+.posts-list.leaderboard .post-title {
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: #BF5E66;
+}
+
+/* Small responsive tweak */
+@media (min-width: 768px) {
+  .posts-list.leaderboard .post-title {
+    font-size: 2.25rem;
+  }
+  .posts-list.leaderboard .post-subtitle {
+    font-size: 1.125rem;
+  }
+}
