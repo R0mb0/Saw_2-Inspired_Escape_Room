@@ -41,8 +41,7 @@ layout: page
 {% assign scored_posts_sorted = scored_posts_array | sort | reverse %}
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-<!-- Aggiunta SOLO della classe 'leaderboard' qui sotto -->
-<ul class="posts-list list-unstyled leaderboard" role="list">
+<ul class="posts-list list-unstyled" role="list">
   {% for item in scored_posts_sorted %}
     {% unless item == "" %}
       {% assign fields = item | split: "|||" %}
