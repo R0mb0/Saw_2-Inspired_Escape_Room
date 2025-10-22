@@ -48,24 +48,43 @@
   {% include google_analytics.html %}
   {% include cloudflare_analytics.html %}
 
+  {%- comment -%}
+    External CSS (CDN etc.)
+  {%- endcomment -%}
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
       {% include ext-css.html css=css %}
     {% endfor %}
   {% endif %}
 
+  {%- comment -%}
+    Load the main site CSS explicitly first to ensure baseline styling is always present.
+    This avoids relying on the layout front-matter resolution which in some cases
+    previously caused the main CSS not to be loaded.
+  {%- endcomment -%}
+  <link rel="stylesheet" href="{{ '/assets/css/r0mb0site.css' | relative_url }}">
+
+  {%- comment -%}
+    Then load any layout-level common CSS (kept for compatibility)
+  {%- endcomment -%}
   {% if layout.common-css %}
     {% for css in layout.common-css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">
     {% endfor %}
   {% endif %}
 
+  {%- comment -%}
+    Load any site-wide additional CSS listed in site.site-css (if used)
+  {%- endcomment -%}
   {% if site.site-css %}
     {% for css in site.site-css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">
     {% endfor %}
   {% endif %}
 
+  {%- comment -%}
+    Page-specific and extra external CSS
+  {%- endcomment -%}
   {% if page.ext-css %}
     {% for css in page.ext-css %}
       {% include ext-css.html css=css %}
@@ -78,7 +97,10 @@
     {% endfor %}
   {% endif %}
 
-  <!-- Includi il CSS della leaderboard sempre per ultimo (override mirato, sicuro) -->
+  {%- comment -%}
+    Load the leaderboard override CSS (if present) as the very last stylesheet
+    so it only overrides what we want.
+  {%- endcomment -%}
   <link rel="stylesheet" href="{{ '/assets/css/leaderboard.css' | relative_url }}">
 
   {% if site.fb_app_id %}
