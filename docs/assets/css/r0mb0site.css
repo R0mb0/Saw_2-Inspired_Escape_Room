@@ -1120,3 +1120,40 @@ pre {
     display: inline-block;
   }
 }
+
+/* ===== leaderboard minimal override - append this to docs/assets/css/r0mb0site.css =====
+   Very small, safe rules: center only the title/subtitle inside .posts-list.leaderboard.
+   DOES NOT change floats, images, or other global layout. */
+
+.posts-list.leaderboard .post-preview article {
+  text-align: center;        /* center textual content inside the article only */
+  max-width: 40rem;          /* constrain width so items render as a column */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.posts-list.leaderboard .post-title {
+  text-align: center !important;
+  display: block;
+  margin: 0.5rem 0 0.25rem 0;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: inherit; /* keep theme color */
+}
+
+.posts-list.leaderboard .post-subtitle {
+  text-align: center !important;
+  display: block;
+  margin: 0 0 0.75rem 0;
+  font-weight: 300;
+}
+
+/* Responsive tweak: moderate size on wider screens */
+@media (min-width: 768px) {
+  .posts-list.leaderboard .post-title {
+    font-size: 2.25rem;
+  }
+  .posts-list.leaderboard .post-subtitle {
+    font-size: 1.125rem;
+  }
+}
