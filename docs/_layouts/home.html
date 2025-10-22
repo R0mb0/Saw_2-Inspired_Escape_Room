@@ -4,14 +4,6 @@ layout: page
 
 {{ content }}
 
-{%- comment -%}
-  Determina la lista base dei post:
-  - se la pagina è paginata (paginator.posts) usa quella
-  - altrimenti usa site.posts
-  Poi concatena gli elementi di site.punteggi (se esistono) in modo che
-  vengano inclusi nella lista visualizzata sulla home.
-{%- endcomment -%}
-
 {% if paginator and paginator.posts %}
   {% assign base_posts = paginator.posts %}
 {% else %}
@@ -41,7 +33,8 @@ layout: page
 {% assign scored_posts_sorted = scored_posts_array | sort | reverse %}
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-<ul class="posts-list list-unstyled" role="list">
+<!-- ho aggiunto la classe 'leaderboard' qui sotto -->
+<ul class="posts-list list-unstyled leaderboard" role="list">
   {% for item in scored_posts_sorted %}
     {% unless item == "" %}
       {% assign fields = item | split: "|||" %}
