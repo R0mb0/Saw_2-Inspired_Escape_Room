@@ -1,7 +1,8 @@
 <!-- # About the project -->
 
-<div>
-  <h3>
-    ⚠️Work in progress⚠️
-  </h3>
-</div>
+# Saw 2 Inspired Escape Room
+
+## La nascita
+
+L'idea del gioco è nata a seguito della frustrazione che provavo ogni volta che sperimentavo la moda delle Escape Rooms.<br>
+
