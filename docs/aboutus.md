@@ -2,6 +2,14 @@
 
 # Saw 2 Inspired Escape Room
 
+
+## Indice
+- [La nascita](#La-nascita)
+- [Lo sviluppo](#Lo-sviluppo)
+- [La trama ](#La-trama )
+- [⚠️ Le regole del gioco](#⚠️-Le-regole-del-gioco)
+- [Avvertenze](#Avvertenze)
+
 ## La nascita
 
 Ciao, Sono R0mb0 il creatore di questa particolare escape-room a tema saw. 
@@ -64,7 +72,7 @@ Uscite subito fuori dalla casa e provate ad accendere le macchine, ma nessuna ma
 
 Provate a vedere se qualche automobilista passa per quella strada, ma non passa nessuno, a quell'ora della sera non c'è traffico. Allora pensate di tornare in città a piedi, ma poi vi ricordate che non fareste in tempo, siccome il veleno vi ucciderà prima di arrivare. Questo pensiero è seguito subito da un altro pensiero, ovvero quello che il tempo stringe e bisogna iniziare a giocare se si vuole salva la vita! 
 
-## ⚠️ Le regole gioco
+## ⚠️ Le regole del gioco
 
 - ⚠️ La prima regola è quella che nonostante sia un gioco a tema horror e nonostante ci sia un tempo massimo per riuscire a risolvere gli enigmi, è importante rispettare il luogo nel quale vi trovate!
   Non dovete ne rompere ne danneggiare la casa ne gli ambienti che la circondano.
