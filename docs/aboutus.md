@@ -49,7 +49,7 @@ Cercate ovunque qualche modo per aprire porte o finestre, ma niente. Finché uno
 
 La valigia è chiusa da dieci lucchetti colorati e collegata a un cavo elettrico, legata con uno spago.
 
-La scatola sembra inanimata, finché uno di voi non la solleva e la slega dal filo. Improvvisamente, un rumore assordante riempie la stanza! Prima che possiate riprendervi, una voce elettronica distorta pronuncia queste parole:
+La scatola sembra inanimata, finché uno di voi non la solleva e stacca il filo. Improvvisamente, un rumore assordante riempie la stanza! Prima che possiate riprendervi, una voce elettronica distorta pronuncia queste parole:
 
 > Hello.  
 > I want to play a game with you.  
