@@ -2,12 +2,42 @@
 
 # Saw 2 Inspired Escape Room
 
-## Indice
-- [💡 La nascita](#la-nascita)
-- [🛠️ Lo sviluppo](#lo-sviluppo)
-- [📜 La trama](#la-trama)
-- [⚠️ Le regole del gioco](#le-regole-del-gioco)
-- [🔔 Avvertenze](#avvertenze)
+<!-- Indice in HTML con JavaScript scroll -->
+<ul id="custom-index">
+  <li><a href="#la-nascita">💡 La nascita</a></li>
+  <li><a href="#lo-sviluppo">🛠️ Lo sviluppo</a></li>
+  <li><a href="#la-trama">📜 La trama</a></li>
+  <li><a href="#le-regole-del-gioco">⚠️ Le regole del gioco</a></li>
+  <li><a href="#avvertenze">🔔 Avvertenze</a></li>
+</ul>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('#custom-index a').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      var targetId = this.getAttribute('href').substring(1);
+      var target = document.getElementById(targetId);
+      if (!target) {
+        // Fallback: trova il primo header con l'anchor desiderato
+        target = document.querySelector('[id="' + targetId + '"]');
+      }
+      if (target) {
+        e.preventDefault();
+        // Offset per compensare eventuali barre fisse (modifica se necessario)
+        var headerOffset = 80;
+        var elementPosition = target.getBoundingClientRect().top + window.scrollY;
+        var offsetPosition = elementPosition - headerOffset;
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+        // Aggiorna l'URL senza ricaricare la pagina
+        history.pushState(null, null, '#' + targetId);
+      }
+    });
+  });
+});
+</script>
 
 ## 💡 La nascita
 
