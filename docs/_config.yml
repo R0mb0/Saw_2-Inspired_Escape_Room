@@ -9,7 +9,7 @@ author: Francesco Rombaldoni
 ###############################################
 
 navbar-links:
-  About the project: "aboutus"
+  Informazioni: "aboutus"
   Risorse:
     - GitHub: "https://github.com/R0mb0/My_personal_announcements"
   #Author's home: "Author's url site"
