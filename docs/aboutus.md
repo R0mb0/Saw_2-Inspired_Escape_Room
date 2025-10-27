@@ -2,88 +2,81 @@
 
 # Saw 2 Inspired Escape Room
 
-
 ## Indice
-- [La nascita](#La-nascita)
-- [Lo sviluppo](#Lo-sviluppo)
-- [La trama ](#La-trama )
-- [⚠️ Le regole del gioco](#⚠️-Le-regole-del-gioco)
-- [Avvertenze](#Avvertenze)
+- [La nascita](#la-nascita)
+- [Lo sviluppo](#lo-sviluppo)
+- [La trama](#la-trama)
+- [⚠️ Le regole del gioco](#le-regole-del-gioco)
+- [Avvertenze](#avvertenze)
 
 ## La nascita
 
-Ciao, Sono R0mb0 il creatore di questa particolare escape-room a tema saw. 
+Ciao, sono R0mb0, creatore di questa escape room ispirata a Saw.
 
-La mia esperienza con le escape-room è stata sempre deludente, siccome ogni volta che giocavo ad una, le premesse venivamo sempre smentite da un gamemplay noioso e spesse volte anche fulstrante. Il gioco, troppo ostinatamente costringeva l'utente a seguire delle strade già tracciate senza offrire la possibilità di sfruttare le proprie abilità.
+Ho sempre trovato le escape room tradizionali poco stimolanti: le promesse di avventura venivano spesso deluse da enigmi ripetitivi e percorsi obbligati, che costringevano i giocatori a seguire strade preimpostate senza lasciare spazio alle proprie abilità.
 
-Lasciate che mi spieghi meglio. Chiunque possieda delle abilità tenciche si rende conto di come questa categoria di giochi sia mediocre, perché vi chiedete? La risposta è subito data: Supponendo che voi siate persone avvezze allo scassinamento, sicuramente non troverete ragionevole risolvere tutti gli enigmi noiosi che semplicemente nascondo la chave per aprire quella serratura che tiene chiusa la porta per l'uscita. E allora è quello l'obiettivo, se l'escape room fosse realistica l'unico problema vero da risolvere è solo quello di trovare il modo di aprire quella maledetta porta che tiene le persone imprigionate. Ma non si può scassinare, siccome il proprietario dell'escape room sicuramente non vorrà, è chiaro il motivo, rovinate il gioco a lui, che ha impiegato così tanto impegno ad elaborare degli enigmi che si possono tranquillamente ignoare. 
+Vi spiego meglio: chi possiede competenze tecniche nota subito la mediocrità di certi giochi. Se siete capaci di scassinare una serratura, perché dovreste perdere tempo con enigmi banali che celano semplicemente la chiave per uscire? In una escape room davvero realistica, l’unico vero obiettivo sarebbe trovare il modo di aprire quella porta maledetta che vi tiene prigionieri. Ma non si può scassinare, ovviamente: il proprietario ha speso tempo e ingegno per creare enigmi che non vuole siano aggirati.
 
-Un gioco fatto bene non ti limita nelle libertà personali, ti mette semplicemente alla prova, lasciandoti esprimere i tuoi talenti... Se quella porta non si può aprire scassinando, allora è bene che quella porta non sia scassinabile nei tempi previsti dalla durata del gioco, chi ci proverà semplicemente perderà la partita. 
+Un gioco ben progettato non limita la libertà del giocatore, ma lo mette alla prova lasciandolo esprimere i propri talenti. Se la porta non può essere aperta con forza, allora dovrà esserlo solo con l’ingegno e la creatività, e chi proverà a forzarla perderà la partita.
 
-La mia proposta invece è quella della creazione di una escape-room che valorizza il giocatore, mettendolo alla prova con sfide mentali e fisiche, le quali non limitano le proprie capacità... 
+La mia visione è quella di una escape room che valorizza davvero il giocatore, mettendolo davanti a sfide mentali e fisiche senza limitare le sue capacità.
 
-State pensado che sia una cosa impossibile da realizzare? 
+Pensate che sia impossibile? Vi sbagliate: qualcuno ci è già riuscito – almeno undici volte – e quel qualcuno è John Kramer.
 
-Se si vi state sbagliando profondamente, in quanto, qualcuno ci è già riuscito per almeno undici volte, e quel qualcuno è John Kramer. 
+Ma chi è John Kramer?
 
-Ma chi è John kramer? 
+John, noto come Jigsaw, è il protagonista della saga di Saw: un serial killer terminale che non uccide direttamente le sue vittime, ma le sottopone a giochi crudeli che possono portare a menomazioni o alla morte. Sceglie persone che hanno disprezzato la vita stessa, offrendo loro la possibilità di riscattarsi attraverso prove estreme. Il soprannome “Jigsaw Killer” deriva dalla tessera di puzzle che lascia sui corpi, simbolo di una parte mancante nell’umanità di chi viene punito.
 
-John il personaggio cinematografico protagonista della serie di film SAW, noto anche come Jigsaw, è un serial killer malato terminale di cancro. Egli non uccide direttamente le persone, ma le recluta per dei giochi che portano a pesanti menomazioni, che possono condurre anche alla morte. Sceglie le vittime solo tra persone che hanno dimostrato disprezzo per la vita stessa, per questo i suoi giochi sono prima di tutto crudeli lezioni per trasmettere agli altri il valore che ha la vita. Il soprannome deriva dall'incisione a forma di tessera di puzzle che lascia sui corpi delle vittime, a suo avviso rei di aver smarrito una parte importante del mosaico umano. Per questo motivo è conosciuto come "Jigsaw Killer", ovvero il "Killer del puzzle". 
+Forse ora pensate che alcune esperienze dei film siano impossibili da replicare nella realtà: troppo complesse, troppo rischiose. Ma vi sbagliate ancora! Oggi la tecnologia – microprocessori, dispositivi IoT – ci permette di trasformare la realtà in modi prima impensabili.
 
-Immagino che ora sterete pensado che alcune epserienze legate ai film non si possano riprodurre nella realtà poichè sarebbe troppo complesso... 
+La mia soluzione è demandare la logica del gioco a macchine e dispositivi elettronici: il sistema non impone regole artificiali, ma lascia al giocatore la libertà di rispettare o sfidare le regole stesse. Attenti però: violare le regole può portare alla "morte", proprio come nei film di Saw. Se sarete più furbi del sistema, potreste comunque vincere.
 
-Pensare questa cosa è un grandeo sbaglio, oggigiorno siamo pieni di dispositivi e microprocessori che come insegna il mondo dell'IOT possono permeare la nostra relatà. 
-
-La soluzione che propongo per innovare questo genere di giochi è quella di derogare la logica del gioco alle macchine, come microprocessori e dispositivi di controllo ambientale. 
-In questo modo non c'è bisogno di invetare regole che limitano la libertà del giocatore, egli in questa situazione può scegliere se giocare rispettando le regole oppure le può sfidare, sfruttando le proprie abilità per vincere il gioco, però attenzione, giocare senza rispettare le regole potrebbe portare velocemente alla "Morte" proprio come nei film di SAW. Se il giocatore è più furbo del sistema di controllo può comunque vincere il gioco.
-Siccome si è parlato di programmazione e di un sistema di controllo, ecco che quest'ultimo può essere reso più o meno aggressivo in base alla programmazione, così facendo lo stesso gioco ha più livelli di difficoltà e meglio si adatterà ad un pubblico più ampio. 
-
-Non vedete l'ora di giocare? Allora continuate a leggere!
+Il sistema di controllo può essere programmato per diversi livelli di difficoltà, adattandosi a ogni tipo di pubblico. Pronti a mettervi alla prova? Continuate a leggere!
 
 ## Lo sviluppo
 
-Per l'idea e lo sviluppo sono stato fortemente ispirato al film di SAW II in quanto i giocatori erano chiusi dentro una casa e dovevano trovare un modo per uscire dalla casa vivi... 
-La mia sfida personale è stata quella di trovare un modo per ricreare la casa di saw in un qualunque ambiente, come? Semplicemente astrendo la logica del film e mettendola all'interno di un dispositivo molto controverso, A me piace chiamarla "La scatola (TM)", grazie al compter di bordo e ai numerosi sensori, questa scatola in collaborazione con l'ambiente circostante è in grado di ricreare una simulazione dell'esperienza descritta nel film... Per vincere il gioco bisogna riuscire ad aprire la scatola entro una ora di tempo, altrimenti la scatola rimarrà chiusa per sempre e l'oggetto che nasconda non potrà salvarvi la vita!
+L’ispirazione nasce dal film Saw II: i protagonisti sono imprigionati in una casa e devono trovare il modo di uscire vivi.
 
-## La trama 
+La mia sfida è stata ricreare quell’atmosfera in qualsiasi ambiente, grazie a un dispositivo unico che chiamo “La Scatola™”. Dotata di computer di bordo e numerosi sensori, la scatola interagisce con l’ambiente circostante per simulare l’esperienza del film. Il tempo è la vostra nemica: avete un’ora per aprire la scatola, altrimenti rimarrà chiusa per sempre e ciò che nasconde non potrà salvarvi la vita!
 
-Un vostro amico v'invita a passare la notte di halloween nella sua casa in campagna a una ora di distanza dalla città. Accettate l'invito e vi recate nel posto. Una volta giunti,notate subito che i cellulari non hanno campo ma venite subito accolti dal vistro amico che vi tranquilizza, e senza troppi complimenti, venite invitati ad entrare. La casa all'interno ricorda molto una di quelle vecchie case di campagna, con mobili e mensole vecchie e tanti dettagli in legno che creano una atosfera calda, nella stanza dove siete entrati trovate al centro un rgrande tavolo apparecchiato e pieno di cibo e di bevande, circondato da tante sedie,  dopo un pò di chiacchiere accompagnate da qualche bibita si passa alla cena. La serata passa tranquilla e serena tra risate e buon umore, del buon cibo e una vecchia stufa a legna accompagna la serata... A un certo punto il vostro amico dice di doversi assentare per andare a controllare delle cose fuori cosa. Il tempo passa e il del vostro amico non vi è traccia, controllate l'orologio e vedete che è quasi mezzanotte, allora pensate che sia il caso di andarlo a cercare siccome pensate che gli possa essere successo qualcosa di brutto. Dopo che vi siete vestiti per uscire fuori vi rendete conto che la casa è completamente chiusa e voi non potete uscire... 
+## La trama
 
-Iniziate a cercare per la casa ogni cosa che vi possa essere utile per cercare di aprire la porta o le finestre, ma non trovate niente... Fino a che ad un certo punto uno di voi non trova una specie di valigia di legno, che però ha delle caratteristiche strane, sulla sommità vi è un timer fermo, e poco vicino a lui ci sono due led, rosso e verde, dove quello verde è accesso, vicino ai led ci sono due pulsanti, che però se si premono non succede niente. 
+Un vostro amico vi invita a trascorrere la notte di Halloween nella sua casa di campagna, lontano dalla città. Accettate l’invito e vi recate sul posto. Al vostro arrivo, i cellulari non hanno segnale, ma l’amico vi rassicura e vi invita a entrare. La casa è rustica, accogliente, con mobili di legno e una calda atmosfera. Al centro della stanza c’è un grande tavolo imbandito, circondato da sedie. Dopo chiacchiere e qualche drink, si passa alla cena, tra risate e buon umore, mentre una vecchia stufa a legna scalda l’ambiente.
 
-Guardando meglio la valigia si nota che è chiusa da dieci lucchetti colorati. Guardandola meglio si nota che la scatola è collegata a quello che sembra un cavo elettrico ed è lagata da uno spago...
+A un certo punto, il vostro amico si allontana per controllare qualcosa fuori. Il tempo passa e non torna. Guardate l’orologio: quasi mezzanotte. Decidete di cercarlo, temendo che gli sia successo qualcosa. Vi preparate per uscire, ma scoprite che la casa è completamente chiusa: non potete uscire.
 
-Non accade niente prendendola in mano, tutto tace, e la scatola sembra inanimata... Uno di voi, nel tentativo di indagare meglio a che cosa possa servire quell'oggetto. Ad un certo punto, gli da uno strattone e la scatola si slega dal filo... Non appena ciò accade, un rumore fortissimo e inquietantissimo viene emesso dalla scatola stessa!
-Tutti prendete paura, ma non fate in tempo a riprendere fiato che la scatola dà un colpo secco e subito dopo sentite una voce elettronica estremamente distorta che dice esattamente queste parole: 
+Cercate ovunque qualche modo per aprire porte o finestre, ma niente. Finché uno di voi trova una valigia di legno molto particolare: sulla sommità c’è un timer fermo, due led (uno rosso, uno verde: il verde è acceso), e due pulsanti che non fanno nulla se premuti.
 
-- Hello.
-  I want to play a game with you.
-  For years you used others to reach your goals.
-  Tonight you have a chance to redeem yourselves.
-  You ate poisoned food.
-  The poison is slow acting.
-  You have about one hour to live.
-  The antidote is inside this box.
-  Find ten keys to save your lives.
-  Let the game begin.
+La valigia è chiusa da dieci lucchetti colorati e collegata a un cavo elettrico, legata con uno spago.
 
-Scioccati e sbigottini dalla notizia del veleno iniziate a muovermi lungo la casa alla ricerca delle chiavi, ed è a questo punto che notate che una porta si è aperta... 
-Uscite subito fuori dalla casa e provate ad accendere le macchine, ma nessuna macchina si mette in moto, allora uno di voi prova ad aprire il cofano e nota subito che i fili della batteria sono stati tagliati...
+La scatola sembra inanimata, finché uno di voi non la solleva e la slega dal filo. Improvvisamente, un rumore assordante riempie la stanza! Prima che possiate riprendervi, una voce elettronica distorta pronuncia queste parole:
 
-Provate a vedere se qualche automobilista passa per quella strada, ma non passa nessuno, a quell'ora della sera non c'è traffico. Allora pensate di tornare in città a piedi, ma poi vi ricordate che non fareste in tempo, siccome il veleno vi ucciderà prima di arrivare. Questo pensiero è seguito subito da un altro pensiero, ovvero quello che il tempo stringe e bisogna iniziare a giocare se si vuole salva la vita! 
+> Hello.  
+> I want to play a game with you.  
+> For years you used others to reach your goals.  
+> Tonight you have a chance to redeem yourselves.  
+> You ate poisoned food.  
+> The poison is slow acting.  
+> You have about one hour to live.  
+> The antidote is inside this box.  
+> Find ten keys to save your lives.  
+> Let the game begin.
+
+Scioccati dalla rivelazione, vi muovete per la casa a caccia delle chiavi. Notate che una porta si è aperta. Uscite e provate ad avviare le auto, ma nessuna parte: i cavi della batteria sono tagliati.
+
+Tentate di fermare qualche automobilista, ma la strada è deserta. Tornare in città a piedi è inutile: il veleno vi ucciderebbe prima. Il tempo stringe. Se volete salvarvi, dovete giocare!
 
 ## ⚠️ Le regole del gioco
 
-- ⚠️ La prima regola è quella che nonostante sia un gioco a tema horror e nonostante ci sia un tempo massimo per riuscire a risolvere gli enigmi, è importante rispettare il luogo nel quale vi trovate!
-  Non dovete ne rompere ne danneggiare la casa ne gli ambienti che la circondano.
-- ⚠️ Fate molta attenzione a quello che fate per giocare (questo è un avvertimento serio come il primo), Ricordate che giocerete di notte in un terreno che non conosciete, vi si raccomanda estrema cautela nel girovagare nei campi e nel risolvere gli enigmi che possono avere delle componenti fisiche. Se non ve la sentite di raggiungere una chiave o un oggetto del gioco, allora chiedere aiuto al proprietario di casa, Ricordate sempre che giocando vi state esponendo a delle situazioni pericolose, per quanto sono limitate.
-- ⚠️ Ad ogni giocatore viene concesso di portare con se tre oggetti qualsiasi (il cellulare non viene contato) che ritiene che possano essere utilii per faciltiarlo nel gioco. Fate in modo do avere almeno una torcia individuale.
+- ⚠️ La prima regola: rispettate il luogo in cui vi trovate! Non dovete rompere o danneggiare la casa né l’ambiente circostante.
+- ⚠️ Fate molta attenzione a ogni azione: si gioca di notte, in un terreno sconosciuto. Massima prudenza nel muoversi e nel risolvere enigmi con componenti fisiche. Se non vi sentite sicuri nel raggiungere una chiave o un oggetto, chiedete aiuto al proprietario. Ricordate: il gioco può comportare rischi, anche se limitati.
+- ⚠️ Ogni giocatore può portare con sé tre oggetti a scelta (il cellulare non conta) utili per affrontare la sfida. Almeno una torcia individuale è consigliata.
 
 ## Avvertenze
 
-- Non pensate che il gioco sia pulito, per superare certe sfide potrebbe essere necessario sporcarsi, per cui prevedete di portarvi un cambio di abiti per giocare indissando dei vestiti che se si sporcano non è un problema.
-- Ricordatevi che la collaborazione è fondamentale se si vuole vincere il gioco!
+- Non aspettatevi un gioco “pulito”: alcune sfide vi sporcheranno. Portate un cambio di abiti e indossate vestiti che possano rovinarsi senza problemi.
+- La collaborazione è fondamentale per vincere!
 
-<div allign="center">
- <h4 style="color: DarkRed;"> CHE IL GIOCO ABBIA INIZIO! </h4>
+<div align="center">
+  <h4 style="color: DarkRed;">CHE IL GIOCO ABBIA INIZIO!</h4>
 </div>
