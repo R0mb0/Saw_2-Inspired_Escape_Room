@@ -72,7 +72,7 @@ Tentate di fermare qualche automobilista, ma la strada è deserta. Tornare in ci
 - ⚠️ Fate molta attenzione a ogni azione: si gioca di notte, in un terreno sconosciuto. Massima prudenza nel muoversi e nel risolvere enigmi con componenti fisiche. Se non vi sentite sicuri nel raggiungere una chiave o un oggetto, chiedete aiuto al proprietario. Ricordate: il gioco può comportare rischi, anche se limitati.
 - ⚠️ Ogni giocatore può portare con sé tre oggetti a scelta (il cellulare non conta) utili per affrontare la sfida. Almeno una torcia individuale è consigliata.
 
-## Avvertenze
+## 🔔 Avvertenze
 
 - 🔔 Non aspettatevi un gioco “pulito”: alcune sfide vi sporcheranno. Portate un cambio di abiti e indossate vestiti che possano rovinarsi senza problemi.
 - 🔔 La collaborazione è fondamentale per vincere!
