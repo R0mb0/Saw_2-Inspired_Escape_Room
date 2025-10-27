@@ -3,11 +3,11 @@
 # Saw 2 Inspired Escape Room
 
 ## Indice
-- [💡 La nascita](#💡-La-nascita)
-- [🛠️ Lo sviluppo](#🛠️-Lo-sviluppo)
-- [📜 La trama](#📜-La-trama)
-- [⚠️ Le regole del gioco](#⚠️-le-regole-del-gioco)
-- [🔔 Avvertenze](#🔔-Avvertenze)
+- [💡 La nascita](#la-nascita)
+- [🛠️ Lo sviluppo](#lo-sviluppo)
+- [📜 La trama](#la-trama)
+- [⚠️ Le regole del gioco](#le-regole-del-gioco)
+- [🔔 Avvertenze](#avvertenze)
 
 ## 💡 La nascita
 
