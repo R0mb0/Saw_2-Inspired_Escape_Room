@@ -8,6 +8,12 @@ author: Francesco Rombaldoni
 # --- List of links in the navigation bar --- #
 ###############################################
 
+collections:
+  storia:
+    output: true
+    # permalink per ogni item della collection (opzionale, modifica come preferisci)
+    permalink: /storia/:path/
+
 navbar-links:
   Informazioni: "aboutus"
   Storia: "storia"
