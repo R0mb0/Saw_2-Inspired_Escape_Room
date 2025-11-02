@@ -8,12 +8,17 @@ author: Francesco Rombaldoni
 # --- List of links in the navigation bar --- #
 ###############################################
 
+# Registrazione delle collections in un unico blocco
 collections:
   storia:
     output: true
-    # permalink per ogni item della collection (opzionale, modifica come preferisci)
     permalink: /storia/:path/
+  punteggi:
+    output: true
+    permalink: /punteggi/:name/
 
+# Navbar links: uso una forma esplicita a mappa (va bene) oppure
+# puoi usare una lista di coppie se preferisci compatibilità con alcuni template.
 navbar-links:
   Informazioni: "aboutus"
   Storia: "storia"
@@ -34,7 +39,7 @@ round-avatar: true
 
 social-network-links:
   email: "f.rombaldoni@campus.uniurb.it"
-  github: Pomodoro-Musei-di-Pesaro 
+  github: Pomodoro-Musei-di-Pesaro
 
 rss-description: SAW's escape room
 
@@ -120,19 +125,12 @@ defaults:
     values:
       layout: "page"
 
-# Collezione personalizzata per i punteggi
-collections:
-  punteggi:
-    output: true
-    permalink: /punteggi/:name/
-
 # Escludi questi file dalla build
 exclude:
   - CHANGELOG.md
   - CNAME
   - LICENSE
   - README.md
-  - docs/
 
 plugins:
   - jekyll-paginate
