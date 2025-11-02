@@ -71,6 +71,20 @@ layout: base
                   {% endif %}
                 </a>
 
+                {%- comment -%}
+                  Qui aggiungo la data sotto il titolo (presa dal front matter se presente,
+                  altrimenti estratta dal nome del file). Formato: YYYY-MM-DD.
+                {%- endcomment -%}
+                <div class="entry-date">
+                  {% if item.date %}
+                    <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%Y-%m-%d" }}</time>
+                  {% else %}
+                    {% assign filename = item.path | split: '/' | last %}
+                    {% assign date_str = filename | slice: 0,10 %}
+                    <time datetime="{{ date_str }}">{{ date_str }}</time>
+                  {% endif %}
+                </div>
+
                 {% if thumbnail != "" %}
                 <div class="post-image post-image-small">
                   <a href="{{ item.url | absolute_url }}" aria-label="Thumbnail">
