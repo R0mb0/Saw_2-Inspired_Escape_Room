@@ -1,6 +1,7 @@
 ---
 layout: base
 ---
+
 {% include header.html type="page" %}
 
 <div class="container-md" role="main">
@@ -12,23 +13,55 @@ layout: base
         <p class="lead">{{ page.subtitle }}</p>
       {% endif %}
 
-      {% assign posts_list = site.posts | sort: 'date' | reverse %}
+      {%- comment -%}
+        Costruisco una lista "date|||index" per ogni elemento di site.storia.
+        Se l'item ha front matter.date uso quello (formattato YYYY-MM-DD).
+        Altrimenti estraggo i primi 10 caratteri dal nome file (es. 2025-10-27).
+        Ordino per stringa (YYYY-MM-DD lexicographically) e poi inverto per avere newest-first.
+      {%- endcomment -%}
+
+      {% assign base_items = site.storia %}
+      {% assign scored_items = "" %}
+      {% for item in base_items %}
+        {% if item.date %}
+          {% assign date_str = item.date | date: "%Y-%m-%d" %}
+        {% else %}
+          {% assign filename = item.path | split: '/' | last %}
+          {% assign date_str = filename | slice: 0,10 %}
+        {% endif %}
+        {% capture scored_items %}{{ scored_items }}{{ date_str }}|||{{ forloop.index0 }}~~~{% endcapture %}
+      {% endfor %}
+      {% assign scored_array = scored_items | split: "~~~" %}
+      {% assign scored_sorted = scored_array | sort | reverse %}
 
       <ul class="posts-list list-unstyled" role="list">
-        {% for post in posts_list %}
-          <li class="post-preview">
-            <article>
-              <h2><a href="{{ post.url | relative_url }}">{{ post.title | strip_html }}</a></h2>
-              <div class="entry-date">
-                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-              </div>
-              {% if post.excerpt %}
-                <p class="post-excerpt">{{ post.excerpt }}</p>
-              {% else %}
-                <p>{{ post.content | strip_html | truncatewords:50 }}</p>
-              {% endif %}
-            </article>
-          </li>
+        {% for entry in scored_sorted %}
+          {% unless entry == "" %}
+            {% assign parts = entry | split: "|||" %}
+            {% assign item_index = parts[1] | plus: 0 %}
+            {% assign item = base_items[item_index] %}
+
+            <li class="post-preview">
+              <article>
+                <h2><a href="{{ item.url | relative_url }}">{{ item.title | strip_html }}</a></h2>
+                <div class="entry-date">
+                  {% if item.date %}
+                    <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%Y-%m-%d" }}</time>
+                  {% else %}
+                    {% assign filename = item.path | split: '/' | last %}
+                    {% assign date_str = filename | slice: 0,10 %}
+                    <time datetime="{{ date_str }}">{{ date_str }}</time>
+                  {% endif %}
+                </div>
+
+                {% if item.excerpt %}
+                  <p class="post-excerpt">{{ item.excerpt }}</p>
+                {% else %}
+                  <p>{{ item.content | strip_html | truncatewords:50 }}</p>
+                {% endif %}
+              </article>
+            </li>
+          {% endunless %}
         {% endfor %}
       </ul>
 
