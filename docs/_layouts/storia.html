@@ -1,0 +1,37 @@
+---
+layout: base
+---
+{% include header.html type="page" %}
+
+<div class="container-md" role="main">
+  <div class="row">
+    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}
+        <hr class="small">
+        <p class="lead">{{ page.subtitle }}</p>
+      {% endif %}
+
+      {% assign posts_list = site.posts | sort: 'date' | reverse %}
+
+      <ul class="posts-list list-unstyled" role="list">
+        {% for post in posts_list %}
+          <li class="post-preview">
+            <article>
+              <h2><a href="{{ post.url | relative_url }}">{{ post.title | strip_html }}</a></h2>
+              <div class="entry-date">
+                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+              </div>
+              {% if post.excerpt %}
+                <p class="post-excerpt">{{ post.excerpt }}</p>
+              {% else %}
+                <p>{{ post.content | strip_html | truncatewords:50 }}</p>
+              {% endif %}
+            </article>
+          </li>
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</div>
