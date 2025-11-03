@@ -31,7 +31,31 @@ Guardate le partite precedenti e analizzate la leaderboard, chissà se troverete
   ![saw's gif](https://media.tenor.com/AJ2Zbpp4EX8AAAAM/confess-tricycle.gif)
 
 </div>
+</details>
 
+<details>
+<summary>
 
+## 🇬🇧 Read in English
+
+</summary>
+
+<div align="center">
+
+  ### Hello players, I want to play a game with you!
+
+</div>
+
+In this repository you will find everything you need to survive this SAW-inspired Escape Room.
+
+Study previous matches and analyze the leaderboard — who knows, you might find something that helps you survive the game in which you are the protagonists.
+
+<div align="center">
+
+  ### Live or die, make your choice!
+
+  ![saw's gif](https://media.tenor.com/AJ2Zbpp4EX8AAAAM/confess-tricycle.gif)
+
+</div>
 
 </details>
