@@ -5,6 +5,12 @@ date: 2025-10-31 10:00:00 +0000
 tags: [storia]
 ---
 
+<div allign="center">
+
+[![Players](https://github.com/R0mb0/Saw_2-Inspired_Escape_Room/blob/main/docs/assets/img/2025-10-31.jpeg?raw=true)](https://github.com/R0mb0/Saw_2-Inspired_Escape_Room/blob/main/docs/assets/img/2025-10-31.jpeg?raw=true)
+
+</div>
+
 La sera di Halloween fu organizzata la prima escape room a tema SAW. Tutto si svolse, come da copione, in una vecchia casa di campagna lontana dalla città. I partecipanti arrivarono per cena: davanti alla stufa a legna consumarono pizza e Coca‑Cola, ignari di cosa li aspettava.
 
 La casa era divisa in due aree: la cucina, che fungeva da prima stanza del gioco, la sala che fù utilizzata come prima area dove cercare il punto d'inizio del gioco. Rimaneva poi il campo che circondava l’edificio, dove si sarebbero poi dipanate le successive prove. Verso la mezzanotte tutte le porte furono chiuse tranne una; ai giocatori fu comunicato, con voce neutra e fredda, che il gioco aveva inizio.
