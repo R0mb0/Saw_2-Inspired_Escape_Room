@@ -11,34 +11,7 @@
   <li><a href="#avvertenze">🔔 Avvertenze</a></li>
 </ul>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('#custom-index a').forEach(function(link) {
-    link.addEventListener('click', function(e) {
-      var targetId = this.getAttribute('href').substring(1);
-      var target = document.getElementById(targetId);
-      if (!target) {
-        // Fallback: trova il primo header con l'anchor desiderato
-        target = document.querySelector('[id="' + targetId + '"]');
-      }
-      if (target) {
-        e.preventDefault();
-        // Offset per compensare eventuali barre fisse (modifica se necessario)
-        var headerOffset = 80;
-        var elementPosition = target.getBoundingClientRect().top + window.scrollY;
-        var offsetPosition = elementPosition - headerOffset;
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: "smooth"
-        });
-        // Aggiorna l'URL senza ricaricare la pagina
-        history.pushState(null, null, '#' + targetId);
-      }
-    });
-  });
-});
-</script>
-
+<a id="la-nascita"></a>
 ## 💡 La nascita
 
 Ciao, sono R0mb0, creatore di questa escape room ispirata a Saw.
@@ -63,12 +36,14 @@ La mia soluzione è demandare la logica del gioco a macchine e dispositivi elett
 
 Il sistema di controllo può essere programmato per diversi livelli di difficoltà, adattandosi a ogni tipo di pubblico. Pronti a mettervi alla prova? Continuate a leggere!
 
+<a id="lo-sviluppo"></a>
 ## 🛠️ Lo sviluppo
 
 L’ispirazione nasce dal film Saw II: i protagonisti sono imprigionati in una casa e devono trovare il modo di uscire vivi.
 
 La mia sfida è stata ricreare quell’atmosfera in qualsiasi ambiente, grazie a un dispositivo unico che chiamo “La Scatola™”. Dotata di computer di bordo e numerosi sensori, la scatola interagisce con l’ambiente circostante per simulare l’esperienza del film. Il tempo è la vostra nemica: avete un’ora per aprire la scatola, altrimenti rimarrà chiusa per sempre e ciò che nasconde non potrà salvarvi la vita!
 
+<a id="la-trama"></a>
 ## 📜 La trama
 
 Un vostro amico vi invita a trascorrere la notte di Halloween nella sua casa di campagna, lontano dalla città. Accettate l’invito e vi recate sul posto. Al vostro arrivo, i cellulari non hanno segnale, ma l’amico vi rassicura e vi invita a entrare. La casa è rustica, accogliente, con mobili di legno e una calda atmosfera. Al centro della stanza c’è un grande tavolo imbandito, circondato da sedie. Dopo chiacchiere e qualche drink, si passa alla cena, tra risate e buon umore, mentre una vecchia stufa a legna scalda l’ambiente.
@@ -96,12 +71,14 @@ Scioccati dalla rivelazione, vi muovete per la casa a caccia delle chiavi. Notat
 
 Tentate di fermare qualche automobilista, ma la strada è deserta. Tornare in città a piedi è inutile: il veleno vi ucciderebbe prima. Il tempo stringe. Se volete salvarvi, dovete giocare!
 
+<a id="le-regole-del-gioco"></a>
 ## ⚠️ Le regole del gioco
 
 - ⚠️ La prima regola: rispettate il luogo in cui vi trovate! Non dovete rompere o danneggiare la casa né l’ambiente circostante.
 - ⚠️ Fate molta attenzione a ogni azione: si gioca di notte, in un terreno sconosciuto. Massima prudenza nel muoversi e nel risolvere enigmi con componenti fisiche. Se non vi sentite sicuri nel raggiungere una chiave o un oggetto, chiedete aiuto al proprietario. Ricordate: il gioco può comportare rischi, anche se limitati.
 - ⚠️ Ogni giocatore può portare con sé tre oggetti a scelta (il cellulare non conta) utili per affrontare la sfida. Almeno una torcia individuale è consigliata.
 
+<a id="avvertenze"></a>
 ## 🔔 Avvertenze
 
 - 🔔 Non aspettatevi un gioco “pulito”: alcune sfide vi sporcheranno. Portate un cambio di abiti e indossate vestiti che possano rovinarsi senza problemi.
