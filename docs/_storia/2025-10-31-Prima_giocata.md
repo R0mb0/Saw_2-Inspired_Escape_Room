@@ -5,7 +5,7 @@ date: 2025-10-31 10:00:00 +0000
 tags: [storia]
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 [![Players](https://github.com/R0mb0/Saw_2-Inspired_Escape_Room/blob/main/docs/assets/img/2025-10-31.jpeg?raw=true)](https://github.com/R0mb0/Saw_2-Inspired_Escape_Room/blob/main/docs/assets/img/2025-10-31.jpeg?raw=true)
 
