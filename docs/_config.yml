@@ -23,7 +23,7 @@ navbar-links:
   Informazioni: "aboutus"
   Storia: "storia"
   Risorse:
-    - GitHub: "https://github.com/R0mb0/My_personal_announcements"
+    - GitHub: "https://github.com/R0mb0/Saw_2-Inspired_Escape_Room"
   #Author's home: "Author's url site"
 
 ################
@@ -53,7 +53,7 @@ share-links-active:
   linkedin: true
   vk: true
 
-url-pretty: "https://github.com/R0mb0/My_personal_announcements"
+url-pretty: "https://github.com/R0mb0/Saw_2-Inspired_Escape_Room"
 
 excerpt_length: 50
 feed_show_excerpt: true
