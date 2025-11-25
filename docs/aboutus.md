@@ -46,42 +46,28 @@ La mia sfida è stata ricreare quell’atmosfera in qualsiasi ambiente, grazie a
 <a id="la-trama"></a>
 ## 📜 La trama
 
-Un vostro amico vi invita a trascorrere la notte di Halloween nella sua casa di campagna, lontano dalla città. Accettate l’invito e vi recate sul posto. Al vostro arrivo, i cellulari non hanno segnale, ma l’amico vi rassicura e vi invita a entrare. La casa è rustica, accogliente, con mobili di legno e una calda atmosfera. Al centro della stanza c’è un grande tavolo imbandito, circondato da sedie. Dopo chiacchiere e qualche drink, si passa alla cena, tra risate e buon umore, mentre una vecchia stufa a legna scalda l’ambiente.
+Un sabato come tanti, avete letto un post su Facebook: una nuova escape room, organizzata nella ludoteca che frequentate da anni. Presi dall'entusiasmo, vi siete affrettati ad accaparrarvi i biglietti prima che finissero.
 
-A un certo punto, il vostro amico si allontana per controllare qualcosa fuori. Il tempo passa e non torna. Guardate l’orologio: quasi mezzanotte. Decidete di cercarlo, temendo che gli sia successo qualcosa. Vi preparate per uscire, ma scoprite che la casa è completamente chiusa: non potete uscire.
+Quel pomeriggio tutto sembrava procedere come sempre: l'ingresso, i saluti, la consegna dei biglietti all'organizzatore. Vi siete accomodati alla postazione di gioco, pronti a ridere e a divertirvi. Ma ben presto avete capito che quel sabato sarebbe diventato qualcosa che non avreste mai dimenticato.
 
-Cercate ovunque qualche modo per aprire porte o finestre, ma niente. Finché uno di voi trova una valigia di legno molto particolare: sulla sommità c’è un timer fermo, due led (uno rosso, uno verde: il verde è acceso), e due pulsanti che non fanno nulla se premuti.
+All'improvviso siete stati ammanettati alle sedie. Le sedie non si muovono: sono saldamente fissate al pavimento. L'organizzatore è scomparso senza lasciare tracce; nella stanza rimangono solo voi e una luce fievole che proietta ombre lunghe e inquietanti. Nessuno risponde alle vostre chiamate. Siete soli.
 
-La valigia è chiusa da dieci lucchetti colorati e collegata a un cavo elettrico, legata con uno spago.
+Davanti a voi, al centro di un tavolo consumato dal tempo, c'è una scatola di legno dal profilo antico. La scatola è circondata da dieci buste, ognuna contrassegnata da un simbolo che non sapete decifrare. È quando guardate più da vicino che notate qualcosa di ancora più angosciante: un sottile filo metallico vi collega alla scatola, avvolgendo i polsi, come se la vostra stessa esistenza fosse parte del suo circuito.
 
-La scatola sembra inanimata, finché uno di voi non la solleva e stacca il filo. Improvvisamente, un rumore assordante riempie la stanza! Prima che possiate riprendervi, una voce elettronica distorta pronuncia queste parole:
+Non c'è via di scampo. Ammanettati e bloccati, vi trovate in una stanza isolata dove nessuno potrà sentirvi urlare. Il tempo scorre. La scatola sembra aspettare, immobile e mutevole insieme, pronta a rivelare il suo terribile segreto al primo che avrà il coraggio — o la disperazione — di tirare il filo.
 
-> Hello.  
-> I want to play a game with you.  
-> For years you used others to reach your goals.  
-> Tonight you have a chance to redeem yourselves.  
-> You ate poisoned food.  
-> The poison is slow acting.  
-> You have about one hour to live.  
-> The antidote is inside this box.  
-> Find ten keys to save your lives.  
-> Let the game begin.
-
-Scioccati dalla rivelazione, vi muovete per la casa a caccia delle chiavi. Notate che una porta si è aperta. Uscite e provate ad avviare le auto, ma nessuna parte: i cavi della batteria sono tagliati.
-
-Tentate di fermare qualche automobilista, ma la strada è deserta. Tornare in città a piedi è inutile: il veleno vi ucciderebbe prima. Il tempo stringe. Se volete salvarvi, dovete giocare!
+Chi sarà il primo a staccare quel filo e innescare la trappola? Chi deciderà per tutti l'ora in cui dovrete affrontare la prova che potrebbe cambiarvi per sempre?
 
 <a id="le-regole-del-gioco"></a>
 ## ⚠️ Le regole del gioco
 
-- ⚠️ La prima regola: rispettate il luogo in cui vi trovate! Non dovete rompere o danneggiare la casa né l’ambiente circostante.
-- ⚠️ Fate molta attenzione a ogni azione: si gioca di notte, in un terreno sconosciuto. Massima prudenza nel muoversi e nel risolvere enigmi con componenti fisiche. Se non vi sentite sicuri nel raggiungere una chiave o un oggetto, chiedete aiuto al proprietario. Ricordate: il gioco può comportare rischi, anche se limitati.
-- ⚠️ Ogni giocatore può portare con sé tre oggetti a scelta (il cellulare non conta) utili per affrontare la sfida. Almeno una torcia individuale è consigliata.
+- ⚠️ La prima regola: rispettate il luogo in cui vi trovate! Non dovete rompere o danneggiare niente, in modo che altre persone possano giocare come avete fatto voi.
+- ⚠️ Ogni giocatore può portare con sé un oggetto a scelta (il cellulare incluso) utile per affrontare la sfida.
 
 <a id="avvertenze"></a>
 ## 🔔 Avvertenze
 
-- 🔔 Non aspettatevi un gioco “pulito”: alcune sfide vi sporcheranno. Portate un cambio di abiti e indossate vestiti che possano rovinarsi senza problemi.
+- 🔔 Non aspettatevi un gioco “pulito”: dovrete pensare fuori dagli schemi
 - 🔔 La collaborazione è fondamentale per vincere!
 
 <div align="center">
